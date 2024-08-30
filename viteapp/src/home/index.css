@@ -1,0 +1,8 @@
+.home-cont{
+    width: 50%;
+    background-color: rgb(179, 235, 235);
+    margin-bottom: 20px;
+    list-style: none;
+    text-align: left;
+    padding: 20px;
+}

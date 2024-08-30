@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0e7ff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 10px;
+  }
+
+  .habit-form {
+    flex-direction: column;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f4f8;
+}
+
+body.dark-mode .app {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode button {
+  background-color: #37f2f8;
+  color: #fff;
+}
+
+body.dark-mode button:hover {
+  background-color: #81f1f5;
+}

@@ -1,0 +1,96 @@
+/* JobDetails Styles */
+.job-details {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .job-details h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #222;
+  }
+  
+  .job-details p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .job-details button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .job-details button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Modal Styles */
+  .modal {
+    display: block;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 15px;
+  }
+  
+  .modal-content label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .modal-content input[type="file"] {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .modal-content button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal-content button:hover {
+    background-color: #218838;
+  }
+  
+  .close {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: red;
+  }
+  
